@@ -8,8 +8,10 @@ from un_tub_p.un_tab.models import UnmanagedTable
 #     with connection.schema_editor() as schema_editor:
 #         schema_editor.create_model(UnmanagedTable)
 
+
 def test_test():
-	assert True
+    assert True
+
 
 # @pytest.mark.django_db
 # def test_user_creation(create_db) -> None:
